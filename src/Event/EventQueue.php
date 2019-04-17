@@ -4,9 +4,9 @@ namespace Comquer\Domain\Event;
 
 interface EventQueue
 {
-    public function push(EventId $eventId): void;
+    public function push(Event $eventId): void;
 
-    public function pullNext() : EventId;
+    public function pullNext() : Event;
 
     public function acknowledge(EventId $eventId) : void;
 

@@ -2,7 +2,7 @@
 
 namespace Comquer\Domain;
 
-class Id
+class Id implements Stringable
 {
     private $value;
 

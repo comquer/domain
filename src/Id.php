@@ -2,12 +2,8 @@
 
 namespace Comquer\Domain;
 
-/**
- * @todo Extract to a separate package
- */
 class Id
 {
-    /** @var string */
     private $value;
 
     public function __construct(string $value)

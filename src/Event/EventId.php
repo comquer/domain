@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Comquer\Domain\Event;
+namespace Comquer\DomainIntegration\Event;
 
-use Comquer\Domain\Id;
+use Comquer\DomainIntegration\Id;
 
 class EventId extends Id
 {

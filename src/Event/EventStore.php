@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Comquer\Domain\Event;
+namespace Comquer\DomainIntegration\Event;
 
 interface EventStore
 {

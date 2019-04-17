@@ -1,8 +1,8 @@
 <?php declare(strict_types=1);
 
-namespace Comquer\Domain\Event;
+namespace Comquer\DomainIntegration\Event;
 
-use Comquer\Domain\Serialization\Deserializable;
+use Comquer\DomainIntegration\Serialization\Deserializable;
 
 interface DeserializableEvent extends Deserializable
 {

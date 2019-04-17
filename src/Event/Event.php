@@ -4,10 +4,9 @@ namespace Comquer\DomainIntegration\Event;
 
 use Comquer\DomainIntegration\NamedResource;
 use Comquer\DomainIntegration\Serialization\Serializable;
-use Comquer\DomainIntegration\Stringable;
 use DateTimeImmutable;
 
-interface Event extends Serializable, DeserializableEvent, NamedResource, Stringable
+interface Event extends Serializable, DeserializableEvent, NamedResource
 {
     public function getOccurredOn() : DateTimeImmutable;
 }

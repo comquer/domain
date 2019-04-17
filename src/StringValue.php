@@ -2,7 +2,7 @@
 
 namespace Comquer\DomainIntegration;
 
-interface Stringable
+interface StringValue
 {
     public function __toString() : string;
 }

@@ -2,6 +2,8 @@
 
 namespace Comquer\DomainIntegrationIntegrationIntegration\Event;
 
+use Comquer\DomainIntegration\Event\Event;
+
 interface EventQueue
 {
     public function push(Event $eventId): void;

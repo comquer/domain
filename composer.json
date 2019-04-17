@@ -1,0 +1,17 @@
+{
+    "name": "comquer/domain",
+    "description": "Interfaces for domain integration",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Comquer\\Domain\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jakub Giminski",
+            "email": "jakubgiminski@gmail.com"
+        }
+    ],
+    "require": {}
+}

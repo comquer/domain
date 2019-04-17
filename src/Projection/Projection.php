@@ -8,5 +8,5 @@ use Comquer\DomainIntegration\Serialization\Serializable;
 
 interface Projection extends Serializable, Deserializable, NamedResource
 {
-    public function getId(): ProjectionId;
+    public function getId() : ProjectionId;
 }

@@ -4,7 +4,7 @@ namespace Comquer\DomainIntegration\Event;
 
 interface EventStore
 {
-    public function persist(Event $event) : void;
+    public function persist(Event $event) : EventId;
 
     public function getById(EventId $eventId) : Event;
 

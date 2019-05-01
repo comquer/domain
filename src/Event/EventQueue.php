@@ -3,6 +3,7 @@
 namespace Comquer\DomainIntegrationIntegrationIntegration\Event;
 
 use Comquer\DomainIntegration\Event\Event;
+use Comquer\DomainIntegration\Event\EventId;
 
 interface EventQueue
 {

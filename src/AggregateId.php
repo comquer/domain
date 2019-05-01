@@ -2,6 +2,6 @@
 
 namespace Comquer\DomainIntegration;
 
-class AggregateId extends Id
+interface AggregateId extends StringValue
 {
 }

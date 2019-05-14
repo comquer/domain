@@ -7,7 +7,7 @@ use Comquer\DomainIntegration\Event\EventQueueItem;
 
 interface EventQueue
 {
-    public function push(EventQueueItem $eventId): void;
+    public function push(EventQueueItem $eventQueueItem): void;
 
     public function pullNext() : EventQueueItem;
 

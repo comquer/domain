@@ -6,7 +6,5 @@ interface EventQueueItem
 {
     public function getEvent() : Event;
 
-    public function getEventId() : EventId;
-
     public function getListenerName() : string;
 }

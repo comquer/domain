@@ -1,8 +1,7 @@
 <?php declare(strict_types=1);
 
-namespace Comquer\Event;
+namespace Comquer\DomainIntegration\Event;
 
-use Comquer\DomainIntegration\Event\Event;
 use Comquer\DomainIntegration\NamedResource;
 
 interface EventListener extends NamedResource

@@ -1,9 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace Comquer\DomainIntegrationIntegrationIntegration\Event;
-
-use Comquer\DomainIntegration\Event\EventId;
-use Comquer\DomainIntegration\Event\EventQueueItem;
+namespace Comquer\DomainIntegration\Event;
 
 interface EventQueue
 {

@@ -2,7 +2,10 @@
 
 namespace Comquer\DomainIntegration\Event;
 
-interface EventQueueItem
+use Comquer\DomainIntegration\Serialization\Deserializable;
+use Comquer\DomainIntegration\Serialization\Serializable;
+
+interface EventQueueItem extends Serializable, Deserializable
 {
     public function getEvent() : Event;
 

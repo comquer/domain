@@ -3,8 +3,7 @@
 namespace Comquer\DomainIntegration\Command;
 
 use Comquer\DomainIntegration\NamedResource;
-use Comquer\DomainIntegration\Serialization\Serializable;
 
-interface Query extends NamedResource, Serializable, DeserializableQuery
+interface Query extends NamedResource
 {
 }

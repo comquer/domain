@@ -2,8 +2,6 @@
 
 namespace Comquer\DomainIntegration\Event;
 
-use Comquer\DomainIntegration\AggregateId;
-use Comquer\DomainIntegration\AggregateType;
 use Comquer\DomainIntegration\NamedResource;
 use Comquer\DomainIntegration\Serialization\Serializable;
 use DateTimeImmutable;

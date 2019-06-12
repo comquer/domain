@@ -2,7 +2,9 @@
 
 namespace Comquer\DomainIntegration;
 
-interface UserDisplayableException extends \Throwable
+use Throwable;
+
+interface UserDisplayableException extends Throwable
 {
     public function getUserMessage() : string;
 }

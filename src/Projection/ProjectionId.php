@@ -2,8 +2,8 @@
 
 namespace Comquer\DomainIntegration\Projection;
 
-use Comquer\DomainIntegration\Id;
+use Comquer\DomainIntegration\StringValue;
 
-class ProjectionId extends Id
+interface ProjectionId extends StringValue
 {
 }

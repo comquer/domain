@@ -12,11 +12,11 @@ interface EventStore
 
     public function getById(EventId $eventId) : Event;
 
-    public function getMany(array $query);
-
-    public function getByAggregateId(AggregateId $aggregateId);
-
-    public function getByAggregateType(AggregateType $aggregateType);
+//    public function getMany(array $query);
+//
+//    public function getByAggregateId(AggregateId $aggregateId);
+//
+//    public function getByAggregateType(AggregateType $aggregateType);
 
     public function exists(EventId $eventId) : bool;
 }

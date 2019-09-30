@@ -8,5 +8,5 @@ interface ProjectionRepository
 
     public function getById(ProjectionId $id) : Projection;
 
-    public function exists(ProjectionId $id) : bool;
+    public function exists(ProjectionId $id, string $projectionName) : bool;
 }

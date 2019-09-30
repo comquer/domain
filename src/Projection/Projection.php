@@ -2,11 +2,12 @@
 
 namespace Comquer\DomainIntegration\Projection;
 
-use Comquer\DomainIntegration\NamedResource;
 use Comquer\DomainIntegration\Serialization\Deserializable;
 use Comquer\DomainIntegration\Serialization\Serializable;
 
-interface Projection extends Serializable, Deserializable, NamedResource
+interface Projection extends Serializable, Deserializable
 {
-    public function getId() : ProjectionId;
+    public function getProjectionId() : ProjectionId;
+
+    public static function getProjectionName() :  string;
 }
